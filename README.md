@@ -1,1 +1,1 @@
-# BTK Akademi DataStructuresAdvanced Çalışma Kodları
+# BTK Akademi Data Structures Advanced Çalışma Kodları
