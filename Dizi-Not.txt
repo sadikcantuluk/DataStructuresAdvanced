@@ -1,0 +1,16 @@
+ var arrayint = Array.CreateInstance(typeof(int), 6);
+
+            arrayint.SetValue(0, 0);
+            arrayint.SetValue(1, 1);
+            arrayint.SetValue(2, 2);
+            arrayint.SetValue(3, 3);
+            arrayint.SetValue(4, 4);
+            arrayint.SetValue(5, 5);
+
+            foreach (var item in arrayint)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine(arrayint.GetValue(4));

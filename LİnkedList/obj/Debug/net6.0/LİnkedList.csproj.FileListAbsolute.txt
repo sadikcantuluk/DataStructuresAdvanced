@@ -1,0 +1,15 @@
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\bin\Debug\net6.0\LİnkedList.exe
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\bin\Debug\net6.0\LİnkedList.deps.json
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\bin\Debug\net6.0\LİnkedList.runtimeconfig.json
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\bin\Debug\net6.0\LİnkedList.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\bin\Debug\net6.0\LİnkedList.pdb
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.csproj.AssemblyReference.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.AssemblyInfoInputs.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.AssemblyInfo.cs
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\refint\LİnkedList.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.pdb
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\LİnkedList.genruntimeconfig.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\LİnkedList\obj\Debug\net6.0\ref\LİnkedList.dll

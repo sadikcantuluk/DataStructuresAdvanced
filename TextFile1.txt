@@ -1,0 +1,6 @@
+iterasyon = ardýþýk iþlem anlamlarýna gelir.
+notasyon = bilimsel disiplinlerde teknik gerçekleri ve miktarlarý 
+geleneksel olarak temsil etmek için kullanýlan bir grafik veya 
+sembol, karakter ve kýsaltýlmýþ ifadeler sistemidir.
+Big-O = Yazýlan bir algoritmanýn performansýný ölçebilmemiz için 
+kullanacaðýmýz en önemli araçlardan biri ise Big-O notation’dýr.

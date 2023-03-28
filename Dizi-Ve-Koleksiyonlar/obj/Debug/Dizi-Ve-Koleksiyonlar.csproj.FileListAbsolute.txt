@@ -1,0 +1,8 @@
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\bin\Debug\Dizi-Ve-Koleksiyonlar.exe.config
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\bin\Debug\Dizi-Ve-Koleksiyonlar.exe
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\bin\Debug\Dizi-Ve-Koleksiyonlar.pdb
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\obj\Debug\Dizi-Ve-Koleksiyonlar.csproj.AssemblyReference.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\obj\Debug\Dizi-Ve-Koleksiyonlar.csproj.SuggestedBindingRedirects.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\obj\Debug\Dizi-Ve-Koleksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\obj\Debug\Dizi-Ve-Koleksiyonlar.exe
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Dizi-Ve-Koleksiyonlar\obj\Debug\Dizi-Ve-Koleksiyonlar.pdb

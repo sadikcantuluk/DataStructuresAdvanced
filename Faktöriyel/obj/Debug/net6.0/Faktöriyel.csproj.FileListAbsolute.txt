@@ -1,0 +1,15 @@
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\bin\Debug\net6.0\Faktöriyel.exe
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\bin\Debug\net6.0\Faktöriyel.deps.json
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\bin\Debug\net6.0\Faktöriyel.runtimeconfig.json
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\bin\Debug\net6.0\Faktöriyel.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\bin\Debug\net6.0\Faktöriyel.pdb
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.csproj.AssemblyReference.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.AssemblyInfoInputs.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.AssemblyInfo.cs
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\refint\Faktöriyel.dll
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.pdb
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\Faktöriyel.genruntimeconfig.cache
+C:\Users\sadik\source\repos\Veri-Yapıları-İleri\Faktöriyel\obj\Debug\net6.0\ref\Faktöriyel.dll
