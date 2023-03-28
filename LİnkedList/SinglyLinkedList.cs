@@ -10,6 +10,8 @@ namespace LİnkedList
     {
         public SinglyLinkedListNode<T> Head { get; set; }
 
+        private bool isHeadNull => Head == null;
+
         public void AddFirst(T value)
         {
             var newNode = new SinglyLinkedListNode<T>(value);
@@ -27,9 +29,9 @@ namespace LİnkedList
         {
             var newNode = new SinglyLinkedListNode<T>(value);
 
-            if (Head == null)
+            if (isHeadNull)
             {
-                Head = newNode;
+                AddFirst(value);
                 return;
             }
 
@@ -41,6 +43,36 @@ namespace LİnkedList
             }
 
             current.Next = newNode;
+        }
+
+        public void AddAfter(SinglyLinkedListNode<T> node, T value)
+        {
+            if (node == null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            if (isHeadNull)
+            {
+                AddFirst(value);
+                return;
+            }
+
+            var newNode = new SinglyLinkedListNode<T>(value);
+
+            var current = Head;
+
+            while (current != null)
+            {
+                if (current == node)
+                {
+                    newNode.Next = current.Next;
+                    current.Next = newNode;
+                    return;
+                }
+                current = current.Next;
+            }
+            throw new ArgumentException("The reference node is not in this list.");
         }
     }
 }
