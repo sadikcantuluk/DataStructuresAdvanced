@@ -16,6 +16,11 @@ namespace LİnkedList
             Value = value;
         }
 
+        public SinglyLinkedListNode()
+        {
+            
+        }
+
         public override string? ToString()
         {
             return $"{Value}";
