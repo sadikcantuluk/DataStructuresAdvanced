@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -16,7 +17,7 @@ namespace LİnkedList
 
         public SinglyLinkedList()
         {
-            
+
         }
 
         public SinglyLinkedList(IEnumerable<T> collection)
@@ -180,6 +181,79 @@ namespace LİnkedList
                 current = current.Next;
             }
             throw new ArgumentException("The reference node is not in this list.");
+        }
+
+        public T RemoveFirst()
+        {
+            if (isHeadNull)
+                throw new Exception("Underflow! Nothing to remove.");
+
+            var firstValue = Head.Value;
+            Head = Head.Next;
+            return firstValue;
+        }
+
+        public T RemoveLast()
+        {
+            if (isHeadNull)
+                throw new Exception("Underflow! Nothing to remove.");
+            var current = Head;
+            SinglyLinkedListNode<T> prev = null;
+            while (current.Next != null)
+            {
+                prev = current;
+                current = current.Next;
+            }
+            var lastValue = prev.Next.Value;
+            prev.Next = null;
+            return lastValue;
+        }
+
+        public void Remove(T value)
+        {
+            if (isHeadNull)
+                throw new Exception("Underflow! Nothing to remove.");
+            if (value == null)
+                throw new ArgumentNullException();
+            var current = Head;
+            SinglyLinkedListNode<T> prev = null;
+            while (current != null)
+            {
+                if (current.Value.Equals(value))
+                {
+                    //Listenin son elemanı mı?
+                    if (current.Next == null)
+                    {
+                        //Listenin tek (Head) elemanı mı var?
+                        if (prev == null)
+                        {
+                            Head = null;
+                            return;
+                        }
+                        else
+                        {
+                            RemoveLast();
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        if (prev == null)
+                        {
+                            Head = Head.Next;
+                            return;
+                        }
+                        else
+                        {
+                            prev.Next = current.Next;
+                            return;
+                        }
+                    }
+                }
+                prev = current;
+                current = current.Next;
+            }
+            throw new ArgumentException("The value could not be found in the list.");
         }
 
         public IEnumerator<T> GetEnumerator()
