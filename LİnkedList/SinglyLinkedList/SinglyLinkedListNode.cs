@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LİnkedList
+namespace LİnkedList.SinglyLinkedList
 {
     public class SinglyLinkedListNode<T>
     {
@@ -18,7 +18,7 @@ namespace LİnkedList
 
         public SinglyLinkedListNode()
         {
-            
+
         }
 
         public override string? ToString()

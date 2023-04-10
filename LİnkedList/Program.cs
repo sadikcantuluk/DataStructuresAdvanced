@@ -1,40 +1,39 @@
 ﻿using LİnkedList;
+using LİnkedList.DoublyLinkedList;
+using LİnkedList.SinglyLinkedList;
 using System.Collections;
 
-var list = new List<int>();
-list.Add(6);
-list.Add(7);
-var linkedList = new SinglyLinkedList<int>(list);
+var list = new DoublyLinkedList<int>();
 
-linkedList.AddFirst(1);
-linkedList.AddFirst(2);
-linkedList.AddFirst(3);
+list.AddFirst(0);
+list.AddFirst(5);
+list.AddFirst(7);
+list.AddFirst(3);
 
-// 3 2 1 o(1)
+//3 7 5 0 
 
-linkedList.AddLast(4);
-linkedList.AddLast(5);
+list.AddAfter(list.Head.Next, 23);
 
-// 3 2 1 4 5
+//3 7 23 5 0
 
-linkedList.AddAfter(linkedList.Head.Next, 32);
+list.AddBefore(list.Head,11);
 
-// 3 2 32 1 4 5
+//11 3 7 23 5 0
 
-linkedList.RemoveFirst();
+list.RemoveFirst();
 
-// 2 32 1 6 7 4 5
+//3 7 23 5 0
 
-linkedList.RemoveLast();
+list.RemoveLast();
 
-// 2 32 1 6 7 4 
-
-linkedList.Remove(1);
-
-// 2 32 6 7 4 
+//3 7 23 5 
 
 
-foreach (var item in linkedList)
+
+
+
+
+foreach (var item in list)
 {
     Console.WriteLine(item);
 }
@@ -42,26 +41,3 @@ foreach (var item in linkedList)
 
 Console.ReadKey();
 
-static void LINQ()
-{
-    //Langue Integrated Query --LINQ
-
-    var rnd = new Random();
-    var initial = Enumerable.Range(1, 10).OrderBy(i => rnd.Next()).ToList();
-
-    var q = from item in initial
-            where item % 2 == 0
-            select item;
-
-    foreach (var item in initial)
-    {
-        Console.WriteLine(item);
-    }
-
-    Console.WriteLine();
-
-    foreach (var item in q)
-    {
-        Console.WriteLine(item);
-    }
-}

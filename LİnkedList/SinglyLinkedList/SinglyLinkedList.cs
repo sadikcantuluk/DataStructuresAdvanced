@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace LİnkedList
+namespace LİnkedList.SinglyLinkedList
 {
     public class SinglyLinkedList<T> : IEnumerable<T>
     {
@@ -24,7 +24,7 @@ namespace LİnkedList
         {
             foreach (var item in collection)
             {
-                this.AddFirst(item);
+                AddFirst(item);
             }
         }
 

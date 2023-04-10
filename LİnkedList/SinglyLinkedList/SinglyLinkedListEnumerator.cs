@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace LİnkedList
+namespace LİnkedList.SinglyLinkedList
 {
     public class SinglyLinkedListEnumerator<T> : IEnumerator<T>
     {
