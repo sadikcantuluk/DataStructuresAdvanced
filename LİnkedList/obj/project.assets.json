@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\LİnkedList\\LİnkedList.csproj",
+      "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\LİnkedList\\LİnkedList.csproj",
       "projectName": "LİnkedList",
-      "projectPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\LİnkedList\\LİnkedList.csproj",
+      "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\LİnkedList\\LİnkedList.csproj",
       "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\LİnkedList\\obj\\",
+      "outputPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\LİnkedList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",

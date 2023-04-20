@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Faktöriyel\\Faktöriyel.csproj",
+      "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Faktöriyel\\Faktöriyel.csproj",
       "projectName": "Faktöriyel",
-      "projectPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Faktöriyel\\Faktöriyel.csproj",
+      "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Faktöriyel\\Faktöriyel.csproj",
       "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Faktöriyel\\obj\\",
+      "outputPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Faktöriyel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",

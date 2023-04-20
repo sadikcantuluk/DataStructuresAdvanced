@@ -11,9 +11,12 @@ namespace LİnkedList.SinglyLinkedList
 {
     public class SinglyLinkedList<T> : IEnumerable<T>
     {
+        private int _count;
         public SinglyLinkedListNode<T> Head { get; set; }
 
         private bool isHeadNull => Head == null;
+
+        public int Count => _count;
 
         public SinglyLinkedList()
         {
@@ -33,6 +36,7 @@ namespace LİnkedList.SinglyLinkedList
             var newNode = new SinglyLinkedListNode<T>(value);
             newNode.Next = Head;
             Head = newNode;
+            _count++;
 
             #region Not
             //T tipinde gelen value değerine node yapısı kazandırdık
@@ -45,6 +49,7 @@ namespace LİnkedList.SinglyLinkedList
         {
             newNode.Next = Head;
             Head = newNode;
+            _count++;
         }
 
         public void AddLast(T value)
@@ -65,6 +70,7 @@ namespace LİnkedList.SinglyLinkedList
             }
 
             current.Next = newNode;
+            _count++;
         }
 
         public void AddAfter(SinglyLinkedListNode<T> node, T value)
@@ -90,6 +96,7 @@ namespace LİnkedList.SinglyLinkedList
                 {
                     newNode.Next = current.Next;
                     current.Next = newNode;
+                    _count++;
                     return;
                 }
                 current = current.Next;
@@ -118,6 +125,7 @@ namespace LİnkedList.SinglyLinkedList
                 {
                     newNode.Next = current.Next;
                     current.Next = newNode;
+                    _count++;
                     return;
                 }
                 current = current.Next;
@@ -148,6 +156,7 @@ namespace LİnkedList.SinglyLinkedList
                 {
                     current.Next = newNode;
                     newNode.Next = current.Next.Next;
+                    _count++;
                     return;
                 }
                 current = current.Next;
@@ -176,6 +185,7 @@ namespace LİnkedList.SinglyLinkedList
                 {
                     current.Next = newNode;
                     newNode.Next = current.Next.Next;
+                    _count++;
                     return;
                 }
                 current = current.Next;
@@ -190,6 +200,7 @@ namespace LİnkedList.SinglyLinkedList
 
             var firstValue = Head.Value;
             Head = Head.Next;
+            _count--;
             return firstValue;
         }
 
@@ -206,6 +217,7 @@ namespace LİnkedList.SinglyLinkedList
             }
             var lastValue = prev.Next.Value;
             prev.Next = null;
+            _count--;
             return lastValue;
         }
 
@@ -228,6 +240,7 @@ namespace LİnkedList.SinglyLinkedList
                         if (prev == null)
                         {
                             Head = null;
+                            _count--;
                             return;
                         }
                         else
@@ -241,11 +254,13 @@ namespace LİnkedList.SinglyLinkedList
                         if (prev == null)
                         {
                             Head = Head.Next;
+                            _count--;
                             return;
                         }
                         else
                         {
                             prev.Next = current.Next;
+                            _count--;
                             return;
                         }
                     }

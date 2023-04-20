@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dizi-Ve-Koleksiyonlar", "Dizi-Ve-Koleksiyonlar\Dizi-Ve-Koleksiyonlar.csproj", "{01FDB58D-F262-409A-B17F-3E72B481F8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LİnkedList", "LİnkedList\LİnkedList.csproj", "{8251A0E9-827D-4C72-9281-7FE3CFBDD92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LİnkedList", "LİnkedList\LİnkedList.csproj", "{8251A0E9-827D-4C72-9281-7FE3CFBDD92E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj", "{DF2345A5-E3BF-48E1-B29E-804F40CD2AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTests", "StackTests\StackTests.csproj", "{EB674D33-700C-4B86-87B6-B1432DA66497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{8251A0E9-827D-4C72-9281-7FE3CFBDD92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8251A0E9-827D-4C72-9281-7FE3CFBDD92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8251A0E9-827D-4C72-9281-7FE3CFBDD92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2345A5-E3BF-48E1-B29E-804F40CD2AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2345A5-E3BF-48E1-B29E-804F40CD2AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2345A5-E3BF-48E1-B29E-804F40CD2AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2345A5-E3BF-48E1-B29E-804F40CD2AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB674D33-700C-4B86-87B6-B1432DA66497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB674D33-700C-4B86-87B6-B1432DA66497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB674D33-700C-4B86-87B6-B1432DA66497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB674D33-700C-4B86-87B6-B1432DA66497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

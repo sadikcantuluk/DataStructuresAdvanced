@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj": {}
+    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj": {
+    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj",
+        "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj",
         "projectName": "Fibonacci",
-        "projectPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj",
+        "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Fibonacci\\Fibonacci.csproj",
         "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadik\\source\\repos\\Veri-Yapıları-İleri\\Fibonacci\\obj\\",
+        "outputPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\Veri-Yapıları-İleri\\Fibonacci\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
