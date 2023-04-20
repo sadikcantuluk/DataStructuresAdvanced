@@ -9,10 +9,12 @@ namespace LİnkedList.DoublyLinkedList
 {
     public class DoublyLinkedList<T> : IEnumerable
     {
+        private int _count = 0;
         public DoublyLinkedListNode<T> Head { get; set; }
         public DoublyLinkedListNode<T> Tail { get; set; }
         public bool isHeadNull => Head == null;
 
+        public int Count => _count;
 
         public DoublyLinkedList()
         {
@@ -41,6 +43,7 @@ namespace LİnkedList.DoublyLinkedList
             {
                 Tail = Head;
             }
+            _count++;
         }
         public void AddLast(T value)
         {
@@ -55,6 +58,7 @@ namespace LİnkedList.DoublyLinkedList
             newNode.Prev = Tail;
             Tail.Next = newNode;
             Tail = newNode;
+            _count++;
         }
 
         public void AddAfter(DoublyLinkedListNode<T> refNode, T value)
@@ -74,6 +78,7 @@ namespace LİnkedList.DoublyLinkedList
 
                 Head = refNode;
                 Tail = newNode;
+                _count++;
 
                 return;
             }
@@ -85,6 +90,7 @@ namespace LİnkedList.DoublyLinkedList
 
                 refNode.Next = newNode;
                 refNode.Next.Prev = newNode;
+                _count++;
 
                 return;
             }
@@ -118,6 +124,7 @@ namespace LİnkedList.DoublyLinkedList
 
                 refNode.Prev = newNode;
                 refNode.Prev.Next = newNode;
+                _count++;
 
                 return;
             }
@@ -163,6 +170,7 @@ namespace LİnkedList.DoublyLinkedList
             {
                 Head = null;
                 Tail = null;
+                _count--;
                 return temp;
             }
             else
@@ -170,7 +178,7 @@ namespace LİnkedList.DoublyLinkedList
                 Head = Head.Next;
                 Head.Prev = null;
             }
-
+            _count--;
             return temp;
         }
 
@@ -187,6 +195,7 @@ namespace LİnkedList.DoublyLinkedList
             {
                 Head = null;
                 Tail = null;
+                _count--;
                 return temp;
             }
             else
@@ -194,7 +203,7 @@ namespace LİnkedList.DoublyLinkedList
                 Tail.Prev.Next = null;
                 Tail = Tail.Prev;
             }
-
+            _count--;
             return temp;
         }
 
@@ -258,6 +267,7 @@ namespace LİnkedList.DoublyLinkedList
                         current.Prev.Next = current.Next;
                         current.Next.Prev = current.Prev;
                     }
+                    _count--;
                     break;
                 }
                 current = current.Next;
