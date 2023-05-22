@@ -1,1 +1,2 @@
-# BTK Akademi Data Structures Advanced Çalışma Kodları
+# DataStructuresAdvanced
+BTK Akademi Veri Yapıları ve Algoritmalar Kursu Çalışma Kodları
