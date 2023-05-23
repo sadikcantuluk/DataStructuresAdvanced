@@ -1,0 +1,8 @@
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\bin\Debug\Trees.exe.config
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\bin\Debug\Trees.exe
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\bin\Debug\Trees.pdb
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\obj\Debug\Trees.csproj.AssemblyReference.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\obj\Debug\Trees.csproj.SuggestedBindingRedirects.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\obj\Debug\Trees.csproj.CoreCompileInputs.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\obj\Debug\Trees.exe
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Trees\obj\Debug\Trees.pdb

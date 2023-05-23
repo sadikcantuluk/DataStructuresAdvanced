@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stack
 {
-    public class Stack<T>
+    public class Stack<T> : IStack<T>
     {
         private readonly IStack<T> stack;
         public int Count => stack.Count;
@@ -35,7 +35,7 @@ namespace Stack
 
         public void Push(T item)
         {
-            stack.Push(item);   
+            stack.Push(item);
         }
     }
 

@@ -39,6 +39,21 @@ namespace Queue
             return _queue.Peek();
         }
 
+        public Queue<T> Concate(Queue<T> q1, Queue<T> q2)
+        {
+            var list = new Queue.Queue<T>();
+            for (int i = 0; i < q1.Count; i++)
+            {
+                list.EnQueue(q1.DeQueue());
+            }
+            for (int i = 0; i < q2.Count; i++)
+            {
+                list.EnQueue(q2.DeQueue());
+            }
+
+            return list;
+        }
+
     }
 
     public interface IQueue<T>
