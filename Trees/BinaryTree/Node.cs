@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trees.BinarySearchTree
+namespace Trees.BinaryTree
 {
     public class Node<T>
     {
