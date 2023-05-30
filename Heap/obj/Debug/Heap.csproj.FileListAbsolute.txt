@@ -1,0 +1,8 @@
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\bin\Debug\Heap.exe.config
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\bin\Debug\Heap.exe
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\bin\Debug\Heap.pdb
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\obj\Debug\Heap.csproj.AssemblyReference.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\obj\Debug\Heap.csproj.SuggestedBindingRedirects.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\obj\Debug\Heap.csproj.CoreCompileInputs.cache
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\obj\Debug\Heap.exe
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\Veri-Yapıları-İleri\Heap\obj\Debug\Heap.pdb
