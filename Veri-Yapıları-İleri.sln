@@ -45,6 +45,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{A16CD2DD-9A4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithmsApp", "..\MYAZ20420623\DataStructuresAlgorithms\SortingAlgorithmsApp\SortingAlgorithmsApp.csproj", "{5632A2B6-A47B-449E-A782-039A7466C0A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHeapAppwithProducts", "..\1aaa\MYAZ20420623\Apps\BHeapAppwithProducts\BHeapAppwithProducts.csproj", "{671329B4-CE77-4243-BC40-3C7438D85923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{5632A2B6-A47B-449E-A782-039A7466C0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5632A2B6-A47B-449E-A782-039A7466C0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5632A2B6-A47B-449E-A782-039A7466C0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671329B4-CE77-4243-BC40-3C7438D85923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671329B4-CE77-4243-BC40-3C7438D85923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671329B4-CE77-4243-BC40-3C7438D85923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671329B4-CE77-4243-BC40-3C7438D85923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{549B2384-8951-4BDD-87BD-5225BE8F8F00} = {E9DA226C-4BAD-457B-8600-046594A1B5AA}
 		{BD9BEFF5-B2B9-4B6C-B321-54E012852985} = {8D1EC6F0-F083-4B63-845D-BF4CDCA696C2}
 		{5632A2B6-A47B-449E-A782-039A7466C0A1} = {A16CD2DD-9A4B-41E3-8344-61B601E381C4}
+		{671329B4-CE77-4243-BC40-3C7438D85923} = {A16CD2DD-9A4B-41E3-8344-61B601E381C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CADC97C2-7963-4A47-A3D1-17218CB84C71}
