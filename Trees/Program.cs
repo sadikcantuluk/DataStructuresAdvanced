@@ -13,7 +13,7 @@ namespace Trees
     {
         static void Main(string[] args)
         {
-            var BST = new BinarySearchTree<int>(new int[] { 40, 45, 20, 70, 85, 65, 60 });
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
 
             ////InOrderRecursive
             //new BinaryTree<int>().InOrderRecursion(BST.Root).ForEach(x => Console.Write(x + " "));
@@ -61,7 +61,7 @@ namespace Trees
             //Console.WriteLine(deepestValue);
 
             //NUMBER OF LEAFS
-            Console.WriteLine(BinaryTree<int>.NumberOfLeafs(BST.Root));
+            //Console.WriteLine(BinaryTree<int>.NumberOfLeafs(BST.Root));
 
 
 
